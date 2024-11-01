@@ -41,7 +41,7 @@ export default async function Layout({
         </div>
       </div>
 
-      <div>{children}</div>
+      <div className="bg-blue-400 p-5">{children}</div>
     </div>
   );
 }
